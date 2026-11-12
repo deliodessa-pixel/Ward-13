@@ -1,0 +1,8 @@
+{
+  "name": "ward-13-v2-escape-room",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Ward 13 complete teacher-first multiplayer escape-room rebuild",
+  "engines": {"node": ">=18"},
+  "scripts": {"start": "node server.js", "test": "node tests.js && node test-encounters.js && node smoke-test.js"}
+}

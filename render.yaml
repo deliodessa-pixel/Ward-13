@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ward-13-v2
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
